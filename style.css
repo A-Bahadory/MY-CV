@@ -426,3 +426,34 @@ body {
 .jest-lite-report__errors {
   display: none
 }
+
+.comment-field-flex {
+  background-color: #C6C958;
+  width: 400px;
+  height: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding-top: 20px;
+}
+
+.leave-comment {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#comment-btn {
+  padding: 8px;
+  background-color: #9B9E47;
+  border: none;
+  margin-left: 8px;
+  color: white;
+  transition: background-color 2s;
+}
+
+#comment-btn:hover,
+#comment-btn:active {
+  border: 1px solid black;
+  font-weight: bold;
+  background-color: #CDD05F;
+}
